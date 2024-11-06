@@ -1,0 +1,289 @@
+.ThancossNatural {
+    margin: 0px;
+    padding: 0px;
+}
+/* -------------------------------------  " Footer Page "  --------------------------------------------------- */
+
+.Home_Page_container {
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(http://www.thancosnatural.com/wp-content/uploads/2017/12/Banner.jpg);
+    background-size: cover;
+    display: flexbox;
+}
+
+.header_container {
+    color: white;
+    background-color: rgba(53, 49, 49, 0.325);
+    height: 90px;
+    width: 100vw;
+
+}
+
+.header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: flex;
+    padding: 40px 300px;
+}
+
+span {
+    padding-left: 25px;
+}
+
+span:hover {
+    color: rgb(216, 213, 213);
+}
+
+.Home {
+    color: red;
+}
+
+.Franchise select{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+
+
+/* -------------------------------------  " Page 2"  --------------------------------------------------- */
+
+.QualityAWards_container {
+    background-image: url(http://www.thancosnatural.com/wp-content/uploads/2017/12/Thancos-Web-bg.jpg);
+    background-size: cover;
+    display: flexbox;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+}
+
+.QualityAWards {
+    align-items: center;
+    padding-top: 27px;
+    padding-right: 100px;
+    padding-bottom: 27px;
+    padding-left: 100px;
+    width: 80%;
+    display: flex;
+    justify-content:center;
+}
+
+.Quality{
+    margin-bottom: 100px;
+    color: white;
+    width: 800px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 150px;
+}
+.AWards {
+    margin-top: 100px;
+    color: white;
+    width: 800px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 400px;
+}
+
+.topic {
+    margin-left: 140px;
+    color: rgb(151, 25, 25);
+}
+
+/* -------------------------------------  " Page 3"  --------------------------------------------------- */
+
+
+.FlavoursStoresFranchisee_containter {
+    background-image: url(http://www.thancosnatural.com/wp-content/uploads/2017/12/Thancos-Web-Flav-bg.jpg);
+    background-size: cover;
+    display: flexbox;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.FlavoursStoresFranchisee {
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 150px;
+}
+
+.Flavours_containter,
+.Stores_containter,
+.Franchisee_containter {
+    margin-top: 130px;
+    margin-left: 130px;
+    padding: 10px;
+    align-items: center;
+}
+
+.Flavours {
+    height: 300px;
+    width: 290px;
+    background-color: rgba(0, 0, 255, 0.223);
+}
+
+.Stores {
+    height: 300px;
+    width: 290px;
+    background-color: rgb(149, 242, 11);
+
+}
+
+.Franchisee {
+    height: 300px;
+    width: 290px;
+    background-color: rgba(255, 166, 0, 0.615);
+}
+
+/* -------------------------------------  " Page 4"  --------------------------------------------------- */
+
+.page{
+    display: flexbox;
+    margin: 0px;
+    padding: 0px;
+}
+.Suggest_container {
+    background-image: url(http://www.thancosnatural.com/wp-content/uploads/2017/12/Thancos-Web-1.jpg);
+    background-repeat:no-repeat; /* repeat, repeat-x,repeat-y,no-repeat */
+    background-size:cover; /* contain , cover */
+    background-position: top;
+    height: 60vh;
+    width: 87vw;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.Suggest{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 80vw;
+    height: 70vh;   
+}
+.Suggest>h2{
+    line-height: 50px;
+    display: inline;
+}
+.Suggest>input{
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(255, 255, 255, 0.97);
+    height: 30px;
+    width: 79.6vw;
+}
+.Suggest>input.Message{
+    height: 120px;
+    width: 79.6vw;
+}
+input::placeholder{
+    color: white;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Suggest>button{
+    margin-left: 1030px;
+    height: 60px;
+    width: 200px;
+    background-color: rgba(216, 112, 147, 0.203);
+}
+button{
+    border-color: yellow;
+    color: yellow;
+    font-size: 20px;
+}
+
+/* -------------------------------------  " Footer Page "  --------------------------------------------------- */
+
+
+.Footer_container{
+    background-color: rgba(0, 0, 0, 0.778);
+    height: 40vh;
+    width: 100vw;
+    padding-top: 5px;
+    display: flex;
+}
+
+.footer{
+    margin-top: 60px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Footer_container{
+    color: white;
+    
+   
+}
+
+.Footer>div{
+    align-items: center;   
+    background-color: olive;
+}
+
+
+.Contact_Us{
+    
+    height: 200px;
+    width: 400px;
+
+    
+}
+.Email{  
+    height: 200px;
+}
+
+.img,.Email{
+    padding: 10px;
+    height: 200px;
+    width: 400px;
+}
+
+.MainFooter_container{
+    padding-left: 10vw;
+    padding-right: 10vw;
+   height: 50px; 
+    width: 80vw;
+    background-color: black;
+    align-items: center;
+   
+    
+}
+ul{
+
+    list-style: none;
+    text-decoration: none;
+    margin-left: 970px;
+    display: flex;
+    line-height: 5px;
+}
+li{
+    text-decoration: none;
+    color: white;
+}
+
+/* -------------------------------------  " Last Footer Bar  "  --------------------------------------------------- */
+
+
+.MainFooter{
+    align-items: center;
+    display: flex;
+    height: 40px; 
+    width: 80vw;
+    background-color: black;
+    color: rgb(115, 112, 112);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+.icon_img{
+    height: 40px;
+    width: 40px;
+}
+.icon_img:hover{
+    height: 42px;
+    width: 42px;
+}
